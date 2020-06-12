@@ -1,0 +1,476 @@
+/*body start*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*body end*/
+/*header start*/
+header{
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    background-color: #121B2A
+}
+
+.wrapper{
+    /*border: 1px solid rgb(7, 3, 250);*/
+}
+.logo{
+    width: 18%;
+    float: left;
+    margin: 18px 0px 8px 74px;
+}
+.logo img{
+    width: 100%;
+}
+.login{
+    /*border: 1px solid yellow;*/
+    width: 35%;
+    /*min-height: 50px;*/
+    overflow: hidden;
+    float: right;
+    margin: 0px 103px 7px 10px;
+    
+    
+    
+}
+.login ul{
+    margin-top: 0px;
+}
+.login ul li{
+    list-style: none;
+    float: left;
+    /*border: 1px solid red;*/
+    padding: 20px;
+    display: inline-block;
+}
+.login ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 16px;
+    display: inline-block;
+
+}
+
+.menu{
+    /*border: 1px solid green;*/
+    overflow: hidden;
+    float: right;
+    width: 55%;
+    min-height: 50px;
+    margin: 0px 50px 10px 0px;
+}
+.menu ul{
+    overflow: hidden;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 16px;
+    display: inline-block;  
+}
+
+.menu ul li a:hover{
+    color: #0078BD;
+}
+
+/*header end*/
+
+/*Banner Start*/
+.banner{
+
+}
+.b-wrapper{
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+}
+
+.b-content{
+    /*border: 1px solid rgb(241, 218, 8);*/
+    width: 38%;
+    /* margin: 111px 0px 80px 100px; */
+    padding: 150px 0px 79px 115px;
+    display: inline-block;
+}
+
+.b-content h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    margin: 0px auto;
+}
+
+.b-content h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0075F4;
+    text-transform: capitalize;
+    margin: 0px auto;
+}
+.b-content p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 12px 0px 30px 0px;
+}
+
+.b-content button{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    background-image: linear-gradient(to top, #F5F5F5, #FFFFFF);
+    border: none;
+    width: 40%;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.b-content button span{
+    border: none;
+    font-size: 18px;
+    padding: 4px 9px;
+    color: #FFFFFF;
+    background-color: #0178BC;
+    border-radius: 16px;
+    margin-left:10px;
+}
+}
+/*Banner End*/
+
+/*Service Start*/
+
+.service{
+    
+}
+
+.s-wrapper{
+    /*border: 1px solid black;*/
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.single{
+    /*border: 1px solid red;*/
+    
+    width: 25%;
+    padding: 15px 74px 0px 24px;
+    float: left;
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 3px;
+    border-left: 1px solid rgba(26,36,48,0.9);
+}
+
+.single:last-child{ 
+    margin: 0px 0px 0px 0px;
+    padding-right: 35px
+}
+
+.title{
+    /*border: 1px solid yellow;*/
+    overflow: hidden;
+}
+.icon{
+    width: 30%;
+    float: left;
+    /*border: 1px solid cyan;*/
+}
+.icon:last-child{
+    width: 30%;
+    float: left;
+    /*border: 1px solid cyan;*/
+}
+
+.icon img{
+    width: 100%;
+    
+}
+
+.icon-content{
+    /*border: 1px solid rgb(199, 3, 124);*/
+    float: left;
+    width: 65%;
+}
+.icon-content h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    text-transform: capitalize;
+    margin: 17px 0px 0px 0px;
+}
+
+.icon-content h2{
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #0277BD;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.s-content{
+
+}
+
+.s-content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+
+
+/*Service End*/
+
+/*About Start*/
+.about{
+    background-color: #040811;
+}
+.a-wrapper{
+    /*border: 1px solid red;*/
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 25px;
+}
+.a-contenet{
+    /*border: 1px solid green;*/
+    width: 25%;
+    padding: 5px 55px 10px 0px;
+    float: left;
+    display: inline-block;
+}
+
+.a-contenet:last-child{ 
+   margin-right: 0px;
+   padding-right: 0px;
+}
+.a-contenet:first-child{ 
+    margin-left: 34px;
+    padding-left: 8px;
+ }
+.a-title{
+    /*border: 1px solid white;*/
+}
+.a-title h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.a-title h2 span{
+    color: #0078BD;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.a-title p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin: 0px 0px 0px 0px;
+}
+.a-contenet table{
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    font-size: 14px;
+    font-family: monospace;
+    /* font-weight: normal; */
+    line-height: 1.1;
+    
+}
+
+address{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    padding: 53px 0px 0px 0px;
+}
+address a{
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 2;
+
+}
+
+/*3rd About start*/
+.icon-img{
+    width: 40%;
+    float:left;
+}
+.icon-img img{
+    width: 100%;
+}
+.appstore{
+
+}
+
+.app-title{
+    /*border: 1px solid white;*/
+    margin-left: 130px;
+}
+.app-title h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
+}
+.app-title h1{
+    color: #0078BD;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px;
+    line-height: 2;
+}
+.appstore-box{
+    margin: 20px 0px 0px 128px;
+    background-color: white;
+    width: 60%;
+    /* min-height: 5px; */
+    border-radius: 13px;
+    overflow: hidden;
+    border: none;
+}
+.appstore-icon{
+    /*border: 1px solid red;*/
+    width: 20%;
+    float: left;
+    margin: 6px 7px 0px;
+}
+.appstore-icon img{
+    width: 100%;
+}
+.appstore-content {
+    /*border: 1px solid green;*/
+}
+.appstore-content p{
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin: 0px auto;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.appstore-content h2{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0px auto;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+/*About End*/
+
+/*footer start*/
+footer{
+    /*border: 1px solid rgb(6, 20, 216);*/
+    overflow: hidden;
+    background-color: #121B2C;
+    padding: 20px;
+}
+.f-wrapper{
+    /*border: 1px solid red;*/
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.f-content{
+    /*border: 1px solid yellow;*/
+    width: 60%;
+    float: left;
+}
+.f-content nav{
+    /*border: 1px solid rgb(6, 20, 216);*/
+}
+.f-content nav ul{
+    overflow: hidden;
+    margin: 25px 0px 0px;
+    /* margin-left: 0px; */
+    padding: 0px;
+    display: inline-block;
+}
+.f-content nav ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+}
+.f-content nav ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0 10px;
+    border-right: 1px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.f-content nav ul li a:hover{
+    color: #0078BD;
+}
+.f-content nav ul li:last-child a{
+    border: none;
+    margin-right: 0px;
+}
+.f-content nav ul li:first-child a{
+    padding-left: 0px;
+}
+.f-content p{
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin-top:10px;
+}
+
+.f-image{
+    /*border: 1px solid rgb(243, 12, 185);*/
+    width: 39%;
+    float: left;
+}
+.f-image img{
+    width: 100%;
+}
+
+/*footer end*/
